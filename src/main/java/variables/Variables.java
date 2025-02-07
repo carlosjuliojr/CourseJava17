@@ -24,6 +24,11 @@ public class Variables {
         System.out.println("name = " + name.toUpperCase());
         System.out.println("age = " + age);
 
+        /**
+         * this is used to assign type format dinamic
+         */
+        var variable = "this is an string";
+
 
     }
 }
