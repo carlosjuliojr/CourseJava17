@@ -6,6 +6,10 @@ public class Variables {
         /**
          * type of variables primitives
          * name : must start with letter or _
+         * if you declare an variable and you want print it you need before initialize it
+         * name of variable must not start with number or special characters
+         * name of variable should not be a reserve world of the language
+         
          */
 
         int number = 0;
@@ -28,6 +32,8 @@ public class Variables {
          * this is used to assign type format dinamic
          */
         var variable = "this is an string";
+        System.out.println("variable = " + variable);
+        
 
 
     }
